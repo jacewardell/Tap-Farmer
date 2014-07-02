@@ -1,0 +1,72 @@
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/frameLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FF251005">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="How to Play"
+            android:id="@+id/tutorialText"
+            android:textSize="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentEnd="false"
+            android:singleLine="false"
+            android:textColor="#ffffffff"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Tap the pig to see the tutorial"
+            android:id="@+id/textView3"
+            android:layout_below="@+id/tutorialText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:textColor="#ffffffff"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tutorial"
+            android:src="@drawable/tutorial_tap"
+            android:layout_marginTop="50dp"
+            android:layout_below="@+id/tutorialText"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="About"
+            android:id="@+id/textView"
+            android:textSize="25dp"
+            android:layout_below="@+id/tutorial"
+            android:layout_alignLeft="@+id/tutorialText"
+            android:layout_alignStart="@+id/tutorialText"
+            android:layout_marginTop="55dp"
+            android:textColor="#ffffffff"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tap Farmer&#169; was invented by two students working towards their Computer Science degrees at the University of Utah.  They figured since people love tapping on their phones so much, why wouldn't they love Tap Farmer&#169;?  Thus, Tap Farmer&#169; was born and people everywhere could fulfill their fantasy of becoming rich farmers.  There's a lot of exciting features in store and hopefully this first release is enjoyable.  Thank you for playing Tap Farmer&#169;!"
+            android:id="@+id/textView2"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#ffffffff"/>
+    </RelativeLayout>
+</FrameLayout>

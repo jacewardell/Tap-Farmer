@@ -1,0 +1,15 @@
+// --- STATUS -- //
+12/8 12:00 pm - Working on code
+
+// --- TODO --- //
+[]persistance
+[]memory management
+[]crash on start
+
+
+
+// --- ERRORS --- //
+[x] If you go two activities deep then back out to the main activity, total stops incrementing every second.
+[x?] Line 255 on Mainactivity randomly crashes when buying items.
+[] Background music only plays a few times.
+[x] Line 174 on Mainactivity hates my phone. Dpi might not be an option for older phones. 

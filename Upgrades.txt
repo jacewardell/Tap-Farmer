@@ -1,0 +1,60 @@
+Other
+ - Other
+     - Irrigation ditches
+     - Sprinkler system
+     - Manure
+Vegetables
+ x- Corn plot
+     x- Corn harvester
+     x- Corn shucker
+     x- Corn scraper
+ x- Carrot plot
+     x- Carrot harvester
+     x- Carrot peeler
+     x- Carrot slicer
+ x- Potato plot
+     x- Potato harvester
+     x- Potato peeler
+     x- Potato slicer
+
+Fruit
+x- Apple orchard
+     x- Apple corer
+     x- Apple slicer
+     x- Apple juicer
+ x- Peach orchard
+     x- Peach harvester
+     x- Peach pitter
+     x- Peach canner
+ x- Strawberry field
+     x- Strawberry pickers
+     x- Mechanical strawberry picker
+     x- Strawberry slicer
+
+Animals
+ x- Chicken
+     x- Chicken coup
+     x- Better chicken feed
+     x- Bigger chicken coup
+ x- Sheep
+     x- Wool shears
+     x- Sheep dog
+     x- Shepherd
+ x- Cow
+     x- Fences
+     x- Cow milker
+     x- Horses for herding
+
+Equipment
+ x- Tractor
+     x- Plow attachment
+     x- Aerator attachment
+     x- Fertilizer attachment
+ x- Baler
+     x- Hand baler
+     x- Mechanical baler
+     x- Tighter bales
+ x- Seeder
+     - Seeder v2000
+     - Seeder v3000
+     - Seeder v4000

@@ -1,0 +1,25 @@
+Coin Total Achievements
+ 1 coin
+   - "You should frame this" "Received after making one coin"
+ 1,000
+   - "
+ 1,000,000
+   - "Money bags!"  "Received after making 1,000,000 coins"
+ 1,000,000,000
+   - "If only this was real money" "Received after making 1,000,000,000 coins"
+ *1,000,000,000,000
+   - "You're the richest person in the universe" "Received after making 1,000,000,000,000 coins"
+
+Tap Achievements
+ 1 Tap
+   - "Woooohooo! Isn't this fun?" "Received after tapping once"
+ 100
+   - "Now you're getting it!" "Received after tapping 100 times"
+ 1000
+   - "Addicting isn't it?" "Received after tapping 1000 times"
+ 10000
+   - "How's your finger feeling" "Received after tapping 10000 times"
+
+Items Achievements
+ 100 count
+   - "Wow! You own a lot of that!" "Received after owning 100 of this item"

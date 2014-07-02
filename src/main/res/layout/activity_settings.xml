@@ -1,0 +1,130 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity"
+    tools:ignore="MergeRootFrame"
+    android:background="#251005">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/resetButton"
+            android:layout_alignParentTop="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Coins Earned:"
+                android:id="@+id/coinsEarned"
+                android:minHeight="50dp"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:textColor="#ffffffff"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Coins in Bank:"
+                android:id="@+id/coinsInBank"
+                android:minHeight="50dp"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:textColor="#ffffffff"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Items Bought:"
+                android:id="@+id/itemsBought"
+                android:minHeight="50dp"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:textColor="#ffffffff"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Upgrades Bought:"
+                android:id="@+id/upgradesBought"
+                android:minHeight="50dp"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:textColor="#ffffffff"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Total Taps:"
+                android:id="@+id/totalTaps"
+                android:minHeight="50dp"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:textColor="#ffffffff"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Coins Spent:"
+                android:id="@+id/totalSpent"
+                android:minHeight="50dp"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:textColor="#ffffffff"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Achievement Progress"
+                android:id="@+id/achievementProgress"
+                android:minHeight="50dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#ffffffff"/>
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/progressBar"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/progressPercentage"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#ffffffff"/>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reset Game"
+            android:id="@+id/resetButton"
+            android:layout_marginBottom="76dp"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="#ffffffff"/>
+
+    </RelativeLayout>
+</FrameLayout>

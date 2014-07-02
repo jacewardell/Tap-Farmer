@@ -1,0 +1,24 @@
+Vegetables
+ - Potato plot
+ - Corn plot
+ - Carrot plot
+
+Fruit
+ - Peach orchard
+ - Strawberry field
+ - Apple orchard
+
+Animals
+ - Cow
+ - Sheep
+ - Chicken
+
+Equipment
+ - Tractor
+ - Baler
+ - Harvester
+ - Seeder
+
+Other
+ - Irrigation ditch
+ - Employee
